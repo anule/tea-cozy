@@ -10,12 +10,26 @@
 
 /* Header Styling */
 header {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  align-content: center;
   position: fixed;
   width: 100%;
   height: 69px;
   z-index: 5;
+  border-bottom: 1px solid seashell;
 }
 
+#logo {
+  display: flex;
+  margin-left: 10px;
+}
+
+#logo img {
+  max-height: 50px;
+  margin: auto;
+}
 /* Main Content Styling */
 main {
   position: relative;
