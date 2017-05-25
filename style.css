@@ -72,7 +72,7 @@ section {
   margin: auto;
 }
 
-.our-mission.headings {
+.our-mission .headings {
   z-index: 5;
-  display: block;
+  width: 1200px;
 }
