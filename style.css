@@ -1,11 +1,14 @@
 /* Universal Styling */
 * {
   font-family: Helvetica;
-  font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  /*border: 1px solid white;*/
+  border: 1px solid white;
+}
+
+span {
+  font-size: 22px;
 }
 
 /* Header Styling */
@@ -48,5 +51,28 @@ nav a {
 main {
   position: relative;
   top: 69px;
-  padding: 69px;
+}
+
+section {
+  margin: auto;
+}
+
+.headings {
+  text-align: center;
+}
+
+/* Mission section */
+.our-mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url("img/img-mission-background.jpg");
+  margin: auto;
+}
+
+.our-mission.headings {
+  z-index: 5;
+  display: block;
 }
