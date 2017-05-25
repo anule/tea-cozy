@@ -79,7 +79,7 @@ section {
 }
 
 /* Featuerd section */
-.featured-tea {
+#featured {
   display: flex;
   width: 1000px;
   flex-flow: row wrap;
