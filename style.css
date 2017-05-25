@@ -4,7 +4,7 @@
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
 }
 
 span {
@@ -21,6 +21,7 @@ header {
   height: 69px;
   z-index: 5;
   border-bottom: 1px solid seashell;
+  top: 0;
 }
 
 #logo {
@@ -50,11 +51,11 @@ nav a {
 /* Main Content Styling */
 main {
   position: relative;
-  top: 69px;
 }
 
 section {
   margin: auto;
+  padding-top: 69px;
 }
 
 .headings {
@@ -75,4 +76,41 @@ section {
 .our-mission .headings {
   z-index: 5;
   width: 1200px;
+}
+
+/* Featuerd section */
+.featured-tea {
+  display: flex;
+  width: 1000px;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+#row1, #row2 {
+  display: flex;
+}
+
+#row1 {
+  order: 2;
+}
+
+#row2 {
+  order: 3;
+}
+.featured-tea .headings {
+  margin: auto;
+  width: 1000px;
+  order: 1;
+}
+
+.images img {
+  max-height: 200px;
+  max-width: 300px;
+  margin: 0 25px;
+}
+
+.images h4 {
+  margin-top: 10px;
+  text-align: center;
 }
