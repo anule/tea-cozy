@@ -4,7 +4,7 @@
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  /*border: 1px solid white;*/
+  border: 1px solid white;
 }
 
 span {
@@ -79,29 +79,30 @@ section {
 }
 
 /* Featuerd section */
-#featured {
+#feaetured {
   display: flex;
   width: 1000px;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: center;
   margin: auto;
 }
 
-#row1, #row2 {
+.container {
   display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
 }
 
-#row1 {
-  order: 2;
-}
-
-#row2 {
-  order: 3;
-}
 .featured-tea .headings {
   margin: auto;
   width: 1000px;
   order: 1;
+}
+
+.images {
+  margin: 0 73px;
 }
 
 .images img {
