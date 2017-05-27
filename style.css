@@ -22,6 +22,7 @@ header {
   z-index: 5;
   border-bottom: 1px solid seashell;
   top: 0;
+  opacity: 1;
 }
 
 #logo {
@@ -76,10 +77,11 @@ section {
 .our-mission .headings {
   z-index: 5;
   width: 1200px;
+  opacity: 1;
 }
 
 /* Featuerd section */
-#feaetured {
+#featured {
   display: flex;
   width: 1000px;
   flex-flow: row wrap;
@@ -91,7 +93,7 @@ section {
   display: flex;
   width: 1000px;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   margin: auto;
 }
 
@@ -115,3 +117,47 @@ section {
   margin-top: 10px;
   text-align: center;
 }
+
+/* Locations styling */
+
+.our-locations {
+  background-image: url('img/img-locations-background.jpg');
+  background-position: center;
+  width: 1200px;
+  height: 500px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.our-locations h2 {
+  width: inherit;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.our-locations .container {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0);
+  margin: auto;
+
+}
+
+.our-locations .addresses {
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+  margin: 15 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.addresses span {
+  display: block;
+}
+ #locations .headins {
+   height: 200px;
+ }
